@@ -11,11 +11,12 @@
     display: flex;
     gap: 2rem;
     padding-left: 50px;
+    align-items: center;
 }
 
 .header-l > h1 {
     color: white;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 800;
     background-color: #36454F;
 }

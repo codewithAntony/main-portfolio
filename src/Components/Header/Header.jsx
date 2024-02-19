@@ -16,9 +16,7 @@ const Header = () => {
                 <div className='hire'>
                     <a href='#'>Hire Me -></a>
                 </div>
-                
             </div>
-
         </div>
         
     )

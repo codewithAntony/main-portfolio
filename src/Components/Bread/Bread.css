@@ -2,14 +2,21 @@
     display: flex;
     justify-content: space-between;
     padding: 80px 50px;
-    background-color: #111827;
-
+    background-color: var(--navyBlue);
 }
 
 .bread-l > span {
     display: flex;
     color: white;
     font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.bread-l > h2 {
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
     font-weight: bold;
 }
 
@@ -30,13 +37,16 @@
 .btn-1 {
     width: 10rem;
     height: 3rem;
-    color: white;
     background-color: #2AAA8A;
     font-size: 1em;
     border-radius: 5px;
     box-shadow: none;
     border: none;
     transition: 0.2s ease;
+}
+
+.btn-1 a {
+    color: white;
 }
 
 .btn-1:hover {
@@ -47,13 +57,16 @@
 .btn-2 {
     width: 10rem;
     height: 3rem;
-    color: var(--gray);
     background-color: #36454F;
     font-size: 1em;
     border-radius: 5px;
     box-shadow: none;
     border: none;
     transition: 0.2s ease;
+}
+
+.btn-2 a {
+    color: white;
 }
 
 .btn-2:hover {
@@ -63,9 +76,5 @@
 }
 
 .bread-img {
-    color: #111827;
-    background-color: #111827;
-    border-color: #111827;
-    
     width: 50%;
 }
