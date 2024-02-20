@@ -11,12 +11,12 @@ const Hero = () => {
 
             <div className="hero-b">
                 <div className="hero-b-1">
-                    <FontAwesomeIcon icon="fa-solid fa-square-check" style={{ fontSize: '30px', }}/>
-                    <p>As a Software Engineer, my mission is to help you design apps that are so elegant and will help you attract clients to your business/Organization. I am here to bring clients to you.</p>
+                    <FontAwesomeIcon icon="fa-solid fa-square-check" style={{ fontSize: '30px', color: "white"}}/>
+                    <p>As a Software Engineer, my mission is to help you design apps that are so elegant and will help you attract clients to your business. I am here to bring clients to you.</p>
                 </div>
                 <div className="hero-b-2">
-                    <FontAwesomeIcon icon="fa-solid fa-square-check" style={{ fontSize: '30px', }}/>
-                    <p>As a Software Engineer, my mission is to help you design apps that are so elegant and will help you attract clients to your business/Organization. I am here to bring clients to you.</p>
+                    <FontAwesomeIcon icon="fa-solid fa-user" style={{ fontSize: '30px', color: "white"}}/>
+                    <p>When I'm not busy, I like to play football, go out and wind down while hanging out with my friends. On most weekends I go for hiking with my friends.</p>
                 </div>
                 
             </div>

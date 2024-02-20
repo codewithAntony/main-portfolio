@@ -9,6 +9,7 @@ import Bread from "./Components/Bread/Bread"
 import Skill from "./Components/Skill/Skill"
 import Projects from "./Components/Projects/Projects"
 import Hero from "./Components/Hero/Hero"
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Skill />
             <Projects />
             <Hero />
+            <Contact />
         </div>
     )
 }

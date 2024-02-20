@@ -1,8 +1,9 @@
 .hero {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: var(--navyBlue);
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .hero-t {
@@ -23,6 +24,7 @@
 
 .hero-t h1 {
     font-weight: bolder;
+    color: white;
 }
 
 .hero-b {
@@ -32,29 +34,31 @@
 }
 
 .hero-b-1 {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 40px 20px;
     margin-left: 150px;
+    cursor: pointer;
 }
+
 
 .hero-b-1 p {
-    padding-top: 10px;
-    font-size: large;
-    font-weight: 200;
+    padding-top: 30px;
     line-height: 25px;
+    color: white;
 }
 
+
 .hero-b-2 {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 40px 20px;
     margin-right: 150px;
+    cursor: pointer;
 }
 
 .hero-b-2 p {
-    padding-top: 10px;
-    font-size: large;
-    font-weight: 200;
+    padding-top: 30px;
     line-height: 25px;
+    color: white;
 }
