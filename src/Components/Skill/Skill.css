@@ -54,8 +54,10 @@
 .skillsets img {
     width: 5%;
     padding-left: 3px;
+    background-color: var(--darkgray);
 }
 
 .skillsets p {
     color: white;
+    background-color: var(--darkgray);
 }

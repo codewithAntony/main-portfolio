@@ -43,10 +43,12 @@
     box-shadow: none;
     border: none;
     transition: 0.2s ease;
+    
 }
 
 .btn-1 a {
     color: white;
+    background-color: #2AAA8A;
 }
 
 .btn-1:hover {
@@ -67,6 +69,7 @@
 
 .btn-2 a {
     color: white;
+    background-color: #36454F;
 }
 
 .btn-2:hover {

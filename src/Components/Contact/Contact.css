@@ -1,0 +1,56 @@
+.contact {
+    color: black;
+    display: flex;
+    padding: 40px 40px;
+    gap: 180px;
+    background-color: white;
+    padding-bottom: 30px;
+    margin: 70px 150px;
+}
+
+.contact-l {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.contact-l h2 {
+    color: #464CAC;
+    font-size: larger;
+    font-weight: 800;
+    background-color: white;
+}
+
+.contact-l p {
+    font-size: large;
+    font-weight: 300;
+    background-color: white;
+    line-height: 30px;
+}
+
+.contact-r {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-r-links {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.contact-r-links p {
+    background-color: white;
+}
+
+.contact-r-links a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
