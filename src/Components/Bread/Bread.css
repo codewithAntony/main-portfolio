@@ -31,25 +31,23 @@
 .btn {
     display: flex;
     gap: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .btn-1 {
-    width: 10rem;
-    height: 3rem;
+    padding: 10px 40px;
     background-color: #2AAA8A;
     font-size: 1em;
     border-radius: 5px;
     box-shadow: none;
     border: none;
     transition: 0.2s ease;
-    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
-.btn-1 a {
-    color: white;
-    background-color: #2AAA8A;
-}
 
 .btn-1:hover {
     cursor: pointer;
@@ -57,27 +55,68 @@
 }
 
 .btn-2 {
-    width: 10rem;
-    height: 3rem;
+    padding: 10px 20px;
     background-color: #36454F;
-    font-size: 1em;
+    font-size: 0.9em;
     border-radius: 5px;
     box-shadow: none;
     border: none;
     transition: 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
-.btn-2 a {
-    color: white;
-    background-color: #36454F;
-}
 
 .btn-2:hover {
     cursor: pointer;
     background-color: var(--gray);
-    color: white;
+    color: var(--navyBlue);
 }
 
 .bread-img {
     width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .bread {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bread-l span {
+        font-size: 2rem;
+    }
+
+    .bread-l h2 {
+        font-size: 1rem;
+    }
+
+    .bread-l p {
+        line-height: 1.3rem;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+    .btn {
+        margin-bottom: 40px;
+    }
+
+    .btn-1 {
+        padding: 15px 20px;
+    }
+
+    .btn-2 {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .bread-img {
+        position: relative;
+        width: 100%;
+        align-items: center;
+    }
 }

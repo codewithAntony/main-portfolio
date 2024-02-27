@@ -75,3 +75,21 @@
     border-color: var(--gray);
     
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        margin-left: -50px;
+        
+    }
+
+    .header-l {
+        flex-direction: column;
+        
+    }
+
+    .header-r {
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+}

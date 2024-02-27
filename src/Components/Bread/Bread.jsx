@@ -9,8 +9,8 @@ const Bread = () => {
                 <h2>Creating great apps is my Bread and Butter.</h2>
                 <p>Lines of Code, Stories of Success: Empowering Brands in the Digital Realm. <br/>For all your Mobile & Web app Designs, you are at the right place!</p>
                 <div className='btn'>
-                    <button className='btn-1'><a href='#'>Resume</a></button>
-                    <button className='btn-2'><a href='#'>See My Past Work</a></button>
+                    <a href='#' className='btn-1'>Resume</a>
+                    <a href='#' className='btn-2'>See My Past Work</a>
                 </div>
             </div>
             {/* Tech image */}

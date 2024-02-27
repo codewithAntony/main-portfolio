@@ -10,6 +10,7 @@ import Skill from "./Components/Skill/Skill"
 import Projects from "./Components/Projects/Projects"
 import Hero from "./Components/Hero/Hero"
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Projects />
             <Hero />
             <Contact />
+            <Footer />
         </div>
     )
 }

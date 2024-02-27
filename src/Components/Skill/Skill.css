@@ -61,3 +61,39 @@
     color: white;
     background-color: var(--darkgray);
 }
+
+@media screen and (max-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .skills-t {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -20px;
+    }
+
+    .skills-t h2 {
+        font-size: 1.5rem;
+    }
+
+    .skills-t p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .skills-b {
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skillsets {
+        width: 70%;
+        margin-left: 40px;
+    }
+}

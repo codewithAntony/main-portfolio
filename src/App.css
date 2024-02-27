@@ -15,8 +15,8 @@
   background-color: #111827;
 }
 
-.app {
-  background-color: #111827;
+.App {
+  overflow: hidden;
 }
 
 a {
