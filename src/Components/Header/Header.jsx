@@ -1,5 +1,7 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
+
 const Header = () => {
     const handleClick = () => {
         window.location.href = 'mailto:${antonymurithi51@gmail.com'
@@ -11,10 +13,10 @@ const Header = () => {
             <h1>Antony Namu</h1>
             <ul className='header-nav'>
                 <li><a href="#">Past Work</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a href="skills">Skill</a></li>
+                <li><a href="#">Testimonial</a></li>
             </ul>
-            </div>
+        </div>
 
             <div className='header-r'>
                 <div className='hire'>
