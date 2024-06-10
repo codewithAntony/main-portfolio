@@ -1,14 +1,9 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import { FaArrowRight } from 'react-icons/fa6';
 
 const Header = () => {
-    const skillsRef = useRef(null);
-
-    const scrollToSection = (sectionRef) => {
-        sectionRef.current.scrollIntoView({ behavior: 'smooth' });
-    };
-
     const handleClick = () => {
         window.location.href = 'mailto:${antonymurithi51@gmail.com';
     };
@@ -21,7 +16,11 @@ const Header = () => {
                     <li>
                         <a href="#">Past Work</a>
                     </li>
-                    <li onClick={() => scrollToSection(skillsRef)}>Skills</li>
+                    <li>
+                        <Link to="#skill" smooth>
+                            Skills
+                        </Link>
+                    </li>
                     <li>
                         <a href="#">Testimonial</a>
                     </li>
@@ -34,7 +33,8 @@ const Header = () => {
                         href={'mailto:${antonymurithi51@gmail.com}'}
                         onClick={handleClick}
                     >
-                        Hire Me ->
+                        Hire Me
+                        <FaArrowRight className="right-arrow" />
                     </a>
                 </div>
             </div>

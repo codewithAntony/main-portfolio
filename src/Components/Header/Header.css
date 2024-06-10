@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #36454F;
+    background-color: #36454f;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -10,7 +10,7 @@
 .header-l {
     display: flex;
     gap: 2rem;
-    background-color: #36454F;
+    background-color: #36454f;
     padding-left: 50px;
     align-items: center;
 }
@@ -19,7 +19,7 @@
     color: white;
     font-size: 2em;
     font-weight: 800;
-    background-color: #36454F;
+    background-color: #36454f;
 }
 
 .header-nav {
@@ -28,13 +28,13 @@
     gap: 0.8rem;
     font-size: 1em;
     font-weight: 100;
-    background-color: #36454F;
+    background-color: #36454f;
 }
 
 .header-nav a {
     text-decoration: none;
     color: var(--gray);
-    background-color: #36454F;
+    background-color: #36454f;
 }
 
 .header-nav a:hover {
@@ -47,12 +47,17 @@
     font-size: 1em;
     font-weight: 100;
     padding-right: 50px;
-    background-color: #36454F;
+    background-color: #36454f;
 }
 
 .header-r a {
     color: var(--gray);
-    background-color: #36454F;
+    background-color: #36454f;
+}
+
+.right-arrow {
+    color: var(--gray);
+    background-color: #36454f;
 }
 
 .hire {
@@ -60,12 +65,11 @@
     padding: 10px;
     transition: border-color 0.3s;
     border-radius: 5px;
-    background-color: #36454F;
+    background-color: #36454f;
 }
 
 .hire a:hover {
     color: var(--gray);
-    
 }
 
 .hire:hover {
@@ -73,19 +77,16 @@
     border: 2px solid transparent;
     border-radius: 5px;
     border-color: var(--gray);
-    
 }
 
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
         margin-left: -50px;
-        
     }
 
     .header-l {
         flex-direction: column;
-        
     }
 
     .header-r {

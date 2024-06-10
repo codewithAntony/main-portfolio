@@ -3,7 +3,7 @@ import './Skill.css';
 import Tick from '../../assets/tick-2.png';
 function Skill() {
     return (
-        <div className="skills">
+        <div className="skills" id="skill">
             <div className="skills-t">
                 <h2>Skills & Technologies</h2>
                 <p>
