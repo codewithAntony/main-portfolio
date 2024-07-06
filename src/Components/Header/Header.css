@@ -61,6 +61,7 @@
 }
 
 .hire {
+    display: flex;
     border: 2px solid transparent;
     padding: 10px;
     transition: border-color 0.3s;
@@ -82,15 +83,28 @@
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
-        margin-left: -50px;
+        padding: 0;
     }
 
     .header-l {
         flex-direction: column;
+        padding: 0;
+    }
+
+    .header-nav li {
+        font-size: small;
+    }
+
+    .header-l h1 {
+        font-size: large;
     }
 
     .header-r {
         padding-top: 10px;
         margin-left: 80px;
+    }
+
+    .hire {
+        font-size: small;
     }
 }
